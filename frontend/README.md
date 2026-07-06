@@ -1,75 +1,45 @@
-# Nuxt Minimal Starter
+# CostCut Landing Page
 
-Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+> **Premium AI Without the Cloud Bill**
 
-## Setup
+CostCut is an intelligent routing engine that offloads tasks to local models and only uses expensive Cloud APIs when necessary. This repository contains the frontend landing page for the project, built with Nuxt and Vuetify.
 
-Make sure to install dependencies:
+## 🚀 Technologies
+
+- **Framework:** [Nuxt](https://nuxt.com/) / Vue.js
+- **UI Components:** [Vuetify](https://vuetifyjs.com/)
+- **Deployment:** GitHub Pages (via GitHub Actions)
+
+---
+
+## 🛠️ Local Development
+
+### 1. Install Dependencies
+
+Make sure you have Node.js installed, then install the project dependencies:
 
 ```bash
-# npm
 npm install
-
-# pnpm
-pnpm install
-
-# yarn
-yarn install
-
-# bun
-bun install
 ```
 
-## Development Server
+### 2. Start the Development Server
 
-Start the development server on `http://localhost:3000`:
+Run the development server. The app will be available at `http://localhost:3000`.
 
 ```bash
-# npm
 npm run dev
-
-# pnpm
-pnpm dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
 ```
 
-## Production
+---
 
-Build the application for production:
+## 🌐 Deployment
+
+This application is set up with automated deployments to GitHub Pages.
+
+Whenever you push code to the `main` or `master` branch, the GitHub Action defined in `.github/workflows/deploy.yml` will automatically build the static assets and publish them to your GitHub Pages URL.
+
+If you ever need to generate the static files locally to test what will be deployed, you can run:
 
 ```bash
-# npm
-npm run build
-
-# pnpm
-pnpm build
-
-# yarn
-yarn build
-
-# bun
-bun run build
+npm run generate
 ```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
