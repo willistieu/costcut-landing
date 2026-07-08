@@ -237,7 +237,7 @@
           </div>
         </v-col>
         <v-col cols="12" md="6" class="text-md-right">
-          <v-btn to="/documentation" variant="text" size="small" class="text-none text-muted">Documentation</v-btn>
+          <!-- <v-btn to="/documentation" variant="text" size="small" class="text-none text-muted">Documentation</v-btn> -->
           <v-btn to="/privacy-policy" variant="text" size="small" class="text-none text-muted">Privacy Policy</v-btn>
           <v-btn to="/contact" variant="text" size="small" class="text-none text-muted">Support</v-btn>
         </v-col>
