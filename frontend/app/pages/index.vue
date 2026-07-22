@@ -45,7 +45,7 @@
         </v-col>
         <v-col cols="12" md="4" class="justify-center">
           <div class="position-relative w-100">
-             <iframe width="100%" height="300" src="https://www.youtube.com/embed/43iraCxzBJI" title="CostCut AI Demo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="rounded-xl elevation-10" style="border-radius: 24px; box-shadow: 0 10px 30px rgba(0,0,0,0.5);"></iframe>
+             <iframe width="100%" height="300" src="https://www.youtube.com/embed/NyJGAps90Zs" title="CostCut AI Demo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="rounded-xl elevation-10" style="border-radius: 24px; box-shadow: 0 10px 30px rgba(0,0,0,0.5);"></iframe>
           </div>
         </v-col>
       </v-row>
