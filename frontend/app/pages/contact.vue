@@ -41,7 +41,7 @@
                   </div>
                 </div>
 
-                <div class="d-flex align-start mb-6">
+                <!-- <div class="d-flex align-start mb-6">
                   <v-avatar color="success" variant="tonal" size="48" class="mr-4 mt-1">
                     <v-icon icon="mdi-map-marker-outline"></v-icon>
                   </v-avatar>
@@ -67,7 +67,7 @@
                   <v-btn icon="mdi-twitter" variant="text" color="muted"></v-btn>
                   <v-btn icon="mdi-linkedin" variant="text" color="muted"></v-btn>
                   <v-btn icon="mdi-github" variant="text" color="muted"></v-btn>
-                </div>
+                </div> -->
               </div>
             </v-col>
 

@@ -34,13 +34,16 @@
             The ultimate AI wrapper that combines local open-source models with your favorite Cloud APIs. Cut your costs, keep the performance.
           </p>
           <div class="d-flex flex-wrap gap-4">
-            <v-btn to="/contact" color="primary" size="x-large" class="text-none rounded-pill px-8 mr-4 mb-4 font-weight-bold primary-glow" elevation="8">
+            <v-btn href="https://www.mediafire.com/file/9itjbls4se6psc5/CostCut_Setup_1.0.0.exe/file" target="_blank" color="primary" size="x-large" class="text-none rounded-pill px-8 mr-4 mb-4 font-weight-bold primary-glow" elevation="8" prepend-icon="mdi-microsoft-windows">
+              Download for Windows
+            </v-btn>
+            <v-btn href="https://www.mediafire.com/file/k4w5xrmacb3k5cr/CostCut-1.0.0.AppImage/file" target="_blank" variant="outlined" color="white" size="x-large" class="text-none rounded-pill px-8 mr-4 mb-4 font-weight-bold" prepend-icon="mdi-linux">
+              Download for Linux
+            </v-btn>
+            <v-btn to="/contact" variant="text" color="white" size="x-large" class="text-none rounded-pill px-8 mb-4 font-weight-bold">
               Contact for info
               <v-icon icon="mdi-arrow-right" class="ml-2"></v-icon>
             </v-btn>
-            <!-- <v-btn variant="outlined" color="white" size="x-large" class="text-none rounded-pill px-8 mb-4 font-weight-bold" prepend-icon="mdi-play-circle-outline">
-              View Demo
-            </v-btn> -->
           </div>
         </v-col>
         <v-col cols="12" md="4" class="justify-center">
@@ -220,9 +223,14 @@
             <div class="glow-orb glow-orb-secondary" style="top: 50%; left: 50%; transform: translate(-50%, -50%); width: 600px; height: 600px; opacity: 0.3;"></div>
             <div class="position-relative z-index-1">
               <h2 class="text-h3 font-weight-black mb-6">Ready to reduce your AI costs?</h2>
-              <v-btn color="primary" size="x-large" class="text-none rounded-pill px-10 font-weight-bold primary-glow" elevation="12">
-                Start Saving Now
-              </v-btn>
+              <div class="d-flex flex-wrap gap-4 justify-center">
+                <v-btn href="https://www.mediafire.com/file/9itjbls4se6psc5/CostCut_Setup_1.0.0.exe/file" target="_blank" color="primary" size="x-large" class="text-none rounded-pill px-10 font-weight-bold primary-glow" elevation="12" prepend-icon="mdi-microsoft-windows">
+                  Download for Windows
+                </v-btn>
+                <v-btn href="https://www.mediafire.com/file/k4w5xrmacb3k5cr/CostCut-1.0.0.AppImage/file" target="_blank" variant="outlined" color="white" size="x-large" class="text-none rounded-pill px-10 font-weight-bold" prepend-icon="mdi-linux">
+                  Download for Linux
+                </v-btn>
+              </div>
             </div>
           </div>
         </v-col>
